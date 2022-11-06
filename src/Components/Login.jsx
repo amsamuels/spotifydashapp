@@ -6,7 +6,7 @@ const Login = () => {
   const LOGIN_URI =
   process.env.NODE_ENV !== 'production'
     ? 'http://localhost:8888/login'
-    : 'https://spotify-dashboard-server.onrender.com';
+    : 'https://spotify-dashboard-server.onrender.com/login';
 
   return (
     <div className='bg-gray-900 fixed w-full  h-full top-0 left-0 z-30'>
