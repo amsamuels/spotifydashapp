@@ -15,7 +15,7 @@ const Login = () => {
           <button className='border-2 rounded-full bg-green-600 border-green-700 px-6 py-2 mx-2 my-4 '>
             <a
               className='font-hero text-lg text-white underline underline-offset-1'
-              href={LOGIN_URI}
+              href="https://spotify-dashboard-server.onrender.com/login"
             >
               Login to Spotify
             </a>
